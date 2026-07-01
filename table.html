@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#093299;
+    padding:50px;
+}
+
+.table-container{
+    max-width:1200px;
+    margin:auto;
+    background:#1147b9;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(214, 31, 31, 0.4);
+}
+
+.table-container h2{
+    color:#fff;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    overflow:hidden;
+    border-radius:10px;
+}
+
+thead{
+    background:linear-gradient(90deg,#00b4ff,#0066ff);
+    color:#fff;
+}
+
+th,
+td{
+    padding:15px;
+    text-align:center;
+}
+
+tbody tr{
+    background:#2c7ded;
+    color:#fff;
+    border-bottom:1px solid #334155;
+    transition:.3s;
+}
+
+tbody tr:nth-child(even){
+    background:#1c5fe4;
+}
+
+tbody tr:hover{
+    background:#00b4ff;
+    color:#fff;
+    transform:scale(1.01);
+}
+
+th{
+    font-size:17px;
+    letter-spacing:1px;
+}
+</style>
+<body>
+
+<div class="table-container">
+    <h2> Table of Technology </h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Experience</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr><td>01</td><td>Ali Khan</td><td>Web Development</td><td>3 Years</td><td>Active</td></tr>
+            <tr><td>02</td><td>Ahmed Raza</td><td>UI/UX Design</td><td>4 Years</td><td>Active</td></tr>
+            <tr><td>03</td><td>Sara Noor</td><td>AI Engineer</td><td>5 Years</td><td>Active</td></tr>
+            <tr><td>04</td><td>Zain Ali</td><td>Cyber Security</td><td>2 Years</td><td>Active</td></tr>
+            <tr><td>05</td><td>Fatima</td><td>Cloud Engineer</td><td>6 Years</td><td>Active</td></tr>
+            <tr><td>06</td><td>Usman</td><td>Software Engineer</td><td>3 Years</td><td>Active</td></tr>
+            <tr><td>07</td><td>Hamza</td><td>Database Admin</td><td>5 Years</td><td>Active</td></tr>
+            <tr><td>08</td><td>Ayesha</td><td>SEO Expert</td><td>4 Years</td><td>Active</td></tr>
+            <tr><td>09</td><td>Bilal</td><td>DevOps</td><td>7 Years</td><td>Active</td></tr>
+            <tr><td>10</td><td>Hassan</td><td>Mobile Developer</td><td>3 Years</td><td>Active</td></tr>
+            <tr><td>11</td><td>Maryam</td><td>QA Engineer</td><td>2 Years</td><td>Active</td></tr>
+            <tr><td>12</td><td>Abdullah</td><td>Project Manager</td><td>8 Years</td><td>Active</td></tr>
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
